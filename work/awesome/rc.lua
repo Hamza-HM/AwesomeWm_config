@@ -584,4 +584,5 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Autostart Applications
 
 --awful.spawn.with_shell("nitrogen --restore")
+awful.spawn.with_shell("~/Downloads/AwesomeWm_config/work/arandr_work.sh")
 awful.spawn.with_shell("~/.config/awesome/autorun.sh")
